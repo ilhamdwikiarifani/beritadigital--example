@@ -1,0 +1,1144 @@
+@font-face {
+    font-family: font-reguler;
+    src: url(asset/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: font-bold;
+    src: url(asset/Poppins-Bold.ttf);
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+li
+{
+    list-style: none;
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "font-reguler";
+    overflow-x: hidden;
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrapper
+{
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    overflow-y: hidden;
+    background: #fdfdfd;
+}
+
+.navigasi
+{
+    z-index: 10;
+    width: 1400px;
+    height: 80px;
+    background: #1ca0f2;
+    margin: auto;
+    position: fixed;
+    overflow: hidden;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.navigasi p
+{
+    display: inline-block;
+    color: #f8f8f8;
+    font-family: "font-bold";
+    padding-bottom: 4px;
+}
+
+.navigasi img
+{
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 35px;
+}
+
+
+.navigasi ul
+{
+    float: right;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+.navigasi ul li
+{
+    display: inline-block;
+    margin: 0px 5px;
+    overflow: hidden;
+}
+
+.navigasi ul li a
+{
+    color: #f8f8f8;
+    font-family: "font-bold";
+    padding: 0px 10px;
+}
+
+.navigasi ul li a:hover
+{
+    color: #1a8dd4;
+    background: white;
+}
+
+.heading
+{
+    width: 100%;
+}
+
+.headimg
+{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background: url(images/headimg.jpg);
+    background-size: cover;
+    background-position: 150px 40px;
+}
+
+
+
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    margin-bottom: 50px;
+}
+
+.card
+{
+    border: 1px solid rgb(190, 190, 190);
+    width: 200px;
+    height: 450px;
+    background: white;
+    margin: 0px 10px;
+    position: relative;
+    cursor: pointer;
+    padding: 40px;
+    overflow: hidden;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card img:hover
+{
+    transform: scale(1.08);
+}
+
+.card img
+{
+    height: 190px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    transition: .3s ease-in-out;
+}
+
+#het:hover
+{
+    color: #1a8dd4;
+}
+
+
+#het
+{
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-family: "font-bold";
+    margin-top: 190px;
+}
+
+#hit
+{
+    font-size: 12px;
+}
+
+#hut a
+{
+    font-size: 11px;
+    color: #1a8dd4;
+}
+
+
+
+.content2
+{
+    margin-top: -30px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+}
+
+.content3
+{
+    margin-top: -30px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+}
+
+
+
+.kontentitle
+{
+    width: 700px;
+    height: 110px;
+    background: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-70%, -30%);
+    box-shadow: -1px 12px 20px -10px rgba(145, 145, 145, 0.94);
+    padding: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.kontentitle h1
+{
+    font-size: 25px;
+    font-family: "font_bold";
+    margin-bottom: 10px;
+}
+
+.kontentitle h1:hover
+{
+    color: #1a8dd4;
+}
+
+#kp
+{
+    color: #1a8dd4;
+}
+
+.konten2
+{
+    display: block;
+}
+
+.gambar
+{
+    width: 270px;
+    height: 140px;
+    background: url(images/tab2.jpg);
+}
+
+.gambar2
+{
+    width: 270px;
+    height: 140px;
+    background: url(images/tab1.jpg);
+}
+
+.gambar3
+{
+    width: 270px;
+    height: 140px;
+    background: url(images/tab3.jpg);
+}
+
+.gambar4
+{
+    width: 270px;
+    height: 140px;
+    background: url(images/tab4.jpg);
+}
+
+.konten2-isi1
+{
+    margin: 20px auto;
+    height: 210px;
+    width: 270px;
+    line-height: 10px;
+}
+
+.konten2-isi2
+{
+    margin: -10px auto;
+    height: 210px;
+    width: 270px;
+    line-height: 10px;
+}
+
+.konten2-isi1 h6
+{
+    margin-top: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.konten2-isi1 h6:hover
+{
+    color: #1a8dd4;
+}
+
+.konten2-isi2 h6:hover
+{
+    color: #1a8dd4;
+}
+
+.konten2-isi1 p
+{
+    font-size: 12px;
+    padding: 5px;
+}
+
+.konten2-isi2 h6
+{
+    margin-top: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.konten2-isi2 p
+{
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+.konten1
+{
+    width: 890px;
+    height: 400px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.konten1-1
+{
+    width: 890px;
+    height: 400px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.slide
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out;
+}
+
+.slide2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.headtitle
+{
+    padding: 30px 90px;
+}
+
+.headtitle p
+{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.headtitle a
+{
+    color: #1a8dd4;
+}
+
+.headimg p
+{
+    margin-top: 150px;
+    margin-left: 90px;
+    font-size: 90px;
+    color: #f8f8f8;
+    line-height: 78px;
+    padding: 40px 0px;
+    font-family: "font-bold";
+}
+
+.ptitle 
+{
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+
+.ptitle p
+{
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: "font-bold";
+    font-weight: bold;
+    color: #1ca0f2;
+    display: inline-block;
+}
+
+.ptitlenew 
+{
+    margin-left: 90px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+
+.ptitlenew p
+{
+    margin-top: 120px;
+    font-size: 25px;
+    font-family: "font-bold";
+    font-weight: bold;
+    color: #1ca0f2;
+    display: inline-block;
+}
+
+
+.titleimg
+{
+    font-size: 12px;
+    margin-left: 40px;
+    color: #f8f8f8;
+    width: 500px;
+    display: none;
+}
+
+.titleimg a
+{
+    color: #f8f8f8;
+}
+
+.content-s1
+{
+    display: flex;
+}
+
+.content-s2
+{
+    display: flex;
+}
+
+.content2-s1
+{
+    display: flex;
+}
+
+
+.footer
+{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background: #1ca0f2;
+}
+
+#check
+{
+    display: none;
+}
+
+label #open,
+label #close
+{
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    display: none;
+    margin-right: 40px;
+}
+
+
+.footer
+{
+    display: block;
+    overflow: hidden;
+}
+
+.footer1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer1-card
+{
+    padding: 25px;
+    width: 300px;
+    height: 230px;
+    border-bottom: 1px solid white;
+}
+
+.footer1-card2
+{
+    padding: 25px;
+    width: 400px;
+    height: 230px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#form
+{
+    margin: auto;
+    width: 350px;
+}
+
+
+#input
+{
+    width: 320px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 2px;
+}
+
+
+#send
+{
+    width: 340px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background: #1a8dd4;
+    cursor: pointer;
+}
+
+
+.footer1 h1
+{
+    font-family: "font-bold";
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.footer1 p
+{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.footer2
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer2-card
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+}
+
+.footer2-card img
+{
+    width: 15px;
+    margin-right: 5px;
+}
+
+
+.footer1-card a
+    {
+        border: 1px solid white;
+        padding: 5px 15px;
+        border-radius: 10px;
+        color: white;
+        font-size: 11px;
+    }
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) 
+{
+.navigasi
+{
+    width: 100%;
+}
+
+.navigasi ul
+{
+    margin-right: 80px;
+}
+
+.headimg
+{
+    background-position: -690px 150px;
+}
+
+.headtitle p
+{
+    font-size: 13px;
+}
+
+.headtitle a
+{
+    font-size: 13px;
+}
+
+.ptitle
+{
+    display: none;
+}
+
+.ptitlenew
+{
+    display: block;
+}
+
+.content
+{
+    justify-content: space-around;
+}
+
+.content2
+{
+    justify-content: center;
+    display: block;
+    height: 1030px;
+}
+
+.content3
+{
+    justify-content: center;
+    display: block;
+    height: 1030px;
+}
+
+.konten1
+{
+    gap: 0;
+    width: 100%;
+}
+
+.konten1-1
+{
+    gap: 0;
+    width: 100%;
+}
+
+
+.kontentitle
+{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.konten2
+{
+    display: block;
+    overflow: hidden;
+}
+
+.konten2-isi1
+{
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.gambar
+{
+    max-width: 200px;
+    height: 180px;
+    background-size: cover;
+    background-position: -90px 0px;
+    margin-left: 40px;
+}
+
+.gambar2
+{
+    max-width: 200px;
+    height: 180px;
+    background-size: cover;
+    background-position: -90px 0px;
+    margin-left: 40px;
+}
+
+.gambar3
+{
+    max-width: 200px;
+    height: 180px;
+    background-size: cover;
+    background-position: -90px 0px;
+    margin-left: 40px;
+}
+
+.gambar4
+{
+    max-width: 200px;
+    height: 180px;
+    background-size: cover;
+    background-position: -90px 0px;
+    margin-left: 40px;
+}
+
+
+
+
+.kti h6
+{
+    font-size: 23px;
+    margin-left: 20px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.kti p
+{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.konten2-isi2
+{
+    display: flex;
+    width: 100%;
+}
+
+
+.content-s1
+{
+    display: block;
+}
+
+.content-s2
+{
+    display: block;
+}
+
+
+
+.card
+{
+    width: 250px;
+    border-radius: 0;
+}
+
+.card img
+{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+}
+
+#het
+{
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-family: "font-bold";
+}
+
+#hit
+{
+    font-size: 12px;
+}
+
+#hut
+{
+    font-size: 11px;
+}
+
+#form
+{
+    width: 100%;
+}
+
+#input
+{
+    width: 100%;
+}
+
+
+#send
+{
+    width: 100%;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 700px) 
+{
+    .container
+    {
+        width: auto;
+    }
+
+    .wrapper
+    {
+        width: 100%;
+        margin: auto;
+        background: white;
+    }
+
+    .navigasi
+    {
+        width: 100%;
+    }
+
+    .headimg
+    {
+        height: 700px;
+        background-position: -290px 150px;
+    }
+
+
+    .headimg p
+    {
+        margin-top: 270px;
+        font-size: 70px;
+        line-height: 60px;
+        margin-left: 40px;
+    }
+
+    .titleimg
+    {
+        display: block;
+        width: 270px;
+        height: 200px;
+    }
+
+    .titleimg small
+    {
+        font-size: 13px;
+    }
+
+    .titleimg a
+    {
+        border: 1px solid white;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+
+    .headtitle
+    {
+        display: none;
+    }
+
+    .ptitle
+{
+    display: none;
+}
+
+.ptitlenew
+{
+    display: block;
+    margin-left: 50px;
+
+}
+    .content
+    {
+        display: block;
+        padding: 0;
+        margin-bottom: -45px;
+    }
+
+    .content2
+    {
+        height: auto;
+    }
+
+
+    .content3
+    {
+        height: auto;
+        margin-top: -60px;
+    }
+
+    .slide
+    {
+        width: 900px;
+        transform: translateX(-200px);
+    }
+
+    .slide2
+    {
+        width: 900px;
+        transform: translateX(-200px);
+    }
+
+    .konten2
+    {
+        padding: 20px;
+        margin-top: -30px;
+    }
+
+.kontentitle
+{
+    width: 300px;
+    top: 47%;
+}
+
+.kontentitle h1
+{
+    font-size: 18px;
+}
+
+.gambar
+{
+    max-width: 120px;
+    height: 100px;
+    background-position: -50px 0px;
+    margin: 0;
+}
+
+.gambar2
+{
+    max-width: 120px;
+    height: 100px;
+    background-position: -50px 0px;
+    margin: 0;
+}
+
+.gambar3
+{
+    max-width: 120px;
+    height: 100px;
+    background-position: -50px 0px;
+    margin: 0;
+}
+
+.gambar4
+{
+    max-width: 120px;
+    height: 100px;
+    background-position: -50px 0px;
+    margin: 0;
+}
+
+.kti h6
+{
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+.kti p
+{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.konten2-isi2
+{
+    margin-top: -100px;
+    display: flex;
+    width: 100%;
+}
+
+.konten2-isi1
+{
+    margin-top: 120px;
+}
+
+
+
+
+.card
+{
+    width: auto;
+    height: 600px;
+    margin: auto;
+    border: none;
+}
+
+.card img
+{
+    width: 100%;
+    height: 300px;
+    bottom: 0;
+    top: 400px;
+}
+
+#het
+{
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-family: "font-bold";
+    width: 270px;
+    margin-top: 10px;
+}
+
+#hit
+{
+    font-size: 14px;
+    width: 270px;
+}
+
+#hut
+{
+    font-size: 13px;
+    margin-bottom: 440px;
+}
+
+
+
+
+    .navigasi img
+{
+    margin-left: 30px;
+    margin-top: 22px;
+}
+
+
+
+.navigasi ul
+{
+    overflow-y: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 40px;
+    background: #1ca0f2;
+    text-align: center;
+    transition: .5s ;
+
+}
+
+
+    .navigasi ul li
+    {
+        overflow: hidden;
+        display: block;
+        line-height: 10px;
+        margin:  50px 0;
+        padding: 5px;
+    }
+
+    .navigasi ul li a
+    {
+        height: 50px;
+    }
+
+
+    #check:checked ~ ul
+    {
+        transform: translateX(900px);
+    }
+
+    #check:checked ~ label #close
+    {
+        display: none;
+    }
+
+    #check:checked ~ label #open
+    {
+        display: block;
+    }
+
+    label #close
+    {
+        display: block;
+    }
+
+
+    .footer
+    {
+        margin-top: 5px;
+    }
+
+
+    .footer1-card
+    {
+        display: none;
+    }
+
+    .footer2-card
+    {
+        font-size: 11px;
+    }
+
+    .footer2-card img
+    {
+        width: 14px;
+    }
+
+    .footer1-card2
+    {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    }
+}
+

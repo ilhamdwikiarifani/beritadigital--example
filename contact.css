@@ -1,0 +1,756 @@
+@font-face {
+    font-family: font-reguler;
+    src: url(asset/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: font-bold;
+    src: url(asset/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: font2-bold;
+    src: url(asset/Haas-Bold.ttf);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "font-reguler";
+    overflow-x: hidden;
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrapper
+{
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    overflow-y: hidden;
+    background: #fdfdfd;
+}
+
+.navigasi
+{
+    z-index: 10;
+    width: 1400px;
+    height: 80px;
+    background: #1ca0f2;
+    margin: auto;
+    position: fixed;
+    overflow: hidden;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.navigasi p
+{
+    display: inline-block;
+    color: white;
+    font-family: "font-bold";
+    padding-bottom: 4px;
+}
+
+.navigasi img
+{
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 35px;
+}
+
+
+.navigasi ul
+{
+    float: right;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+.navigasi ul li
+{
+    display: inline-block;
+    margin: 0px 5px;
+    overflow: hidden;
+}
+
+.navigasi ul li a
+{
+    color: #f8f8f8;
+    font-family: "font-bold";
+    padding: 0px 10px;
+}
+
+.navigasi ul li a:hover
+{
+    color: #1a8dd4;
+    background: white;
+}
+
+
+.heading
+{
+    width: 100%;
+}
+
+.headimg
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+
+.headtitle
+{
+    padding: 100px;
+}
+
+#hh
+{
+    margin-top: 70px;
+    text-align: center;
+    font-family: "font-Bold";
+    color: #1a8dd4;
+    font-size: 12px;
+}
+
+.headtitle h1
+{
+    font-size: 36px;
+    margin-top: 20px;
+    line-height: 35px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "font2-Bold";
+}
+
+.headtitle p
+{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#hr
+{
+    margin: 40px auto;
+    width: 900px;
+    border: 1px solid #1a8dd4;
+}
+
+#hbottom
+{
+    font-size: 18px;
+}
+
+#tbottom
+{
+    margin-top: -5px;
+    font-size: 12px;
+    width: 400px;
+}
+
+
+.tim
+{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kartutop
+{
+    display: flex;
+}
+
+.kartubottom
+{
+    display: flex;
+}
+
+.kartu
+{
+    width: 300px;
+    height: 300px;
+    background: white;
+    margin: 20px;
+    border: 1px solid rgb(187, 187, 187);
+    padding-top: 80px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#veri
+{
+    width: 12px;
+}
+
+.bulat
+{
+    width: 150px;
+    height: 150px;
+    background: #1ca0f2;
+    margin: -20px auto;
+    border-radius: 50%;
+    animation: zoom 1s infinite;
+    background: url(images/fajar.jpg);
+    background-size: cover;
+    background-position: -2px -20px;
+}
+
+.bulat1
+{
+    width: 150px;
+    height: 150px;
+    background: #1ca0f2;
+    margin: -20px auto;
+    border-radius: 50%;
+    animation: zoom 1s infinite;
+    background: url(images/vivi.jpeg);
+    background-size: cover;
+    background-position: -2px -70px;
+}
+
+
+.bulat2
+{
+    width: 150px;
+    height: 150px;
+    background: #1ca0f2;
+    margin: -20px auto;
+    border-radius: 50%;
+    animation: zoom 1s infinite;
+    background: url(images/kiki.jpeg);
+    background-size: cover;
+    background-position: -2px 0px;
+}
+
+
+.bulat3
+{
+    width: 150px;
+    height: 150px;
+    background: #1ca0f2;
+    margin: -20px auto;
+    border-radius: 50%;
+    animation: zoom 1s infinite;
+    background: url(images/arfi.jpeg);
+    background-size: cover;
+    background-position: -2px -20px;
+}
+
+
+@keyframes zoom {
+    
+    0%{transform: scale(1.05);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1.05);}
+}
+
+.nama
+{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    color: rgb(99, 99, 99);
+}
+
+.nama h1
+{
+    font-size: 17px;
+    margin-top: 40px;
+    font-family: "font-Bold";
+    line-height: 20px;
+}
+
+.nama p
+{
+    width: 100px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#fajar
+{
+    font-size: 15px;
+}
+
+.sosmed
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 130px;
+    margin: auto;
+}
+
+.sosmed img
+{
+    width: 25px;
+    transition: 1s;
+}
+
+.sosmed img:hover
+{
+    transform: scale(1.2);
+}
+
+
+.footer
+{
+    width: 100%;
+    height: 400px;
+    background: #1ca0f2;
+}
+
+#check
+{
+    display: none;
+}
+
+label #open,
+label #close
+{
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    display: none;
+    margin-right: 40px;
+}
+
+
+.footer
+{
+    display: block;
+    overflow: hidden;
+}
+
+.footer1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer1-card
+{
+    padding: 25px;
+    width: 300px;
+    height: 230px;
+    border-bottom: 1px solid white;
+}
+
+.footer1-card2
+{
+    padding: 25px;
+    width: 400px;
+    height: 230px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#form
+{
+    margin: auto;
+    width: 350px;
+}
+
+
+#input
+{
+    width: 320px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 2px;
+}
+
+
+#send
+{
+    width: 340px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background: #1a8dd4;
+    cursor: pointer;
+}
+
+
+.footer1 h1
+{
+    font-family: "font-bold";
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.footer1 p
+{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.footer2
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer2-card
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+}
+
+.footer2-card img
+{
+    width: 15px;
+    margin-right: 5px;
+}
+
+
+.footer1-card a
+    {
+        border: 1px solid white;
+        padding: 5px 15px;
+        border-radius: 10px;
+        color: white;
+        font-size: 11px;
+    }
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) 
+{
+.navigasi
+{
+    width: 100%;
+}
+
+.navigasi ul
+{
+    margin-right: 80px;
+}
+
+.headimg
+{
+    width: 100%;
+}
+
+.headtitle h1
+{
+    margin-top: 60px;
+}
+
+.tim
+{
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.kartu
+{
+    border-radius: 0px;
+    width: 270px;
+    margin: auto;
+}
+
+
+.kartutop
+{
+    display: block;
+    margin: 0;
+}
+
+.kartubottom
+{
+    display: block;
+    padding: 0;
+}
+
+#hh
+{
+    width: 100%;
+}
+
+.headtitle p
+{
+    width: 100%;
+}
+
+#hr
+{
+    width: 100%;
+}
+
+#hbottom
+{
+    width: 100%;
+}
+
+#tbottom
+{
+    width: 100%;
+}
+
+
+
+#form
+{
+    width: 100%;
+}
+
+#input
+{
+    width: 100%;
+}
+
+
+#send
+{
+    width: 100%;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 700px) 
+{
+    .container
+    {
+        width: auto;
+    }
+
+    .wrapper
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    .navigasi
+    {
+        width: 100%;
+    }
+
+    .headimg
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .tim
+    {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .kartu
+    {
+        margin: 30px auto;
+        width: 90%;
+        border-radius: 30px 30px 0px 0px;
+        border: 1px solid #bebebe;
+    }
+
+    .bulat
+    {
+        margin-bottom: 10px;
+    }
+
+    .bulat1
+    {
+        margin-bottom: 10px;
+    }
+
+    .bulat2
+    {
+        margin-bottom: 10px;
+    }
+
+    .bulat3
+    {
+        margin-bottom: 10px;
+    }
+
+    .nama h1
+    {
+      margin-bottom: -17px;
+    }
+
+
+
+    .headtitle
+    {
+        padding: 25px;
+    }
+
+    .headtitle h1
+    {
+        margin-top: 20px;
+    }
+
+    #hh
+    {
+        margin-top: 100px;
+    }
+
+    .headtitle p
+    {
+        margin-top: 20px;
+    }
+
+    
+
+    label #close
+    {
+        display: block;
+    }
+
+
+    .navigasi img
+{
+    margin-left: 30px;
+    margin-top: 22px;
+}
+
+    .navigasi ul
+    {
+        overflow-y: hidden;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 40px;
+        background: #1ca0f2;
+        text-align: center;
+        transition: .5s;
+    }
+
+    .navigasi ul li
+    {
+        overflow: hidden;
+        display: block;
+        line-height: 10px;
+        margin:  50px 0;
+        padding: 5px;
+    }
+
+    .navigasi ul li a
+    {
+        height: 50px;
+    }
+
+
+    #check:checked ~ ul
+    {
+        transform: translateX(900px);
+    }
+
+    #check:checked ~ label #close
+    {
+        display: none;
+    }
+
+    #check:checked ~ label #open
+    {
+        display: block;
+    }
+
+
+    .footer1-card
+    {
+        display: none;
+    }
+
+    .footer2-card
+    {
+        font-size: 11px;
+    }
+
+    .footer2-card img
+    {
+        width: 14px;
+    }
+
+    .footer1-card2
+    {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    }
+}
+
+
+
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
